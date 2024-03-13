@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 import 'Counter_app/counter_page.dart';
+import 'Image_picker/images_picker.dart';
 import 'Love_App/love_page.dart';
 import 'Size/Size_getx.dart';
 import 'Slider_Example/slider.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3:false,
       ),
-      home: LoveAppGetX(),
+      home: ImagePickerGetX(),
     );
   }
 }
